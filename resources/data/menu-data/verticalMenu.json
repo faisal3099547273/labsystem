@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "url": "panel/dashboard",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "panel.dashboard"
+    },
+    {
+      "url": "panel/patient",
+      "name": "Patients",
+      "icon": "users",
+      "slug": "panel.dashboard"
+    },
+    {
+      "name": "General Setting",
+      "url": "panel/company/manager",
+      "icon": "settings",
+      "slug": "",
+      "access": "view_manager",
+      "submenu": [
+
+        {
+          "url": "panel/gsetting/tests",
+          "name": "Test",
+          "icon": "circle",
+          "slug": "manager.index",
+          "access": "view_manager" 
+        }
+   
+      ]
+    }
+   
+  ]
+}
